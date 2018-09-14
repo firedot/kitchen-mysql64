@@ -6,9 +6,9 @@ provisioner:
   name: shell
 
 platforms:
-  - name: vbox/redise4
+  - name: vbox/mysqle4
     driver:
-      box: redis64
+      box: mysql64
 
 verifier:
   name: inspec
