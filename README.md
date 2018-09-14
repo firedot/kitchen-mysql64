@@ -1,4 +1,4 @@
-# kitchen-redis64
+# kitchen-mysql64
 Kitchen-vagrant test for Vagrant box
 
 ## Prerequisites: 
@@ -6,24 +6,24 @@ Kitchen-vagrant test for Vagrant box
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 
 **This repository contains instructions how to perform
-kitchen-vagrant test on the box built from [this](https://github.com/firedot/packer-redis64.git) repository **
+kitchen-vagrant test on the box built from [this](https://github.com/firedot/packer-mysql64.git) repository **
 
 1. Follow the instructions from the repository quoted above. 
 2. Once the process is completed, run the following command: 
 ````
-vagrant box add --name redis64 redis64.box
+vagrant box add --name mysql64 mysql64.box
 ````
 ** This will make the box created with packer available to vagrant**
    * 2.1 Another way to obtain the box is by executing the following command: 
    
      ````
-      vagrant box add firedot/redis64
+      vagrant box add firedot/mysql64
      ````
       The previous line will download the already built box from the VagrantCloud. 
 3. Install kitchen by installing the [ChefDK](https://downloads.chef.io/chefdk)
 4. Clone this repository: 
   ````
-  git clone https://github.com/firedot/kitchen-redis64.git 
+  git clone https://github.com/firedot/kitchen-mysql64.git 
   ````
 ## How to test: 
 1. Go into the cloned repo dir
