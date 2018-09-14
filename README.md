@@ -9,8 +9,8 @@ Kitchen-vagrant test for Vagrant box
 kitchen-vagrant test on the box built from this repository: 
 [git](git@github.com:firedot/packer-mysql64.git)**
 
-1. Follow the instructions from the repository quoted above. 
-2. Once the process is completed, run the following command: 
+   1. Follow the instructions from the repository quoted above. 
+   2. Once the process is completed, run the following command: 
 ````
 vagrant box add --name mysql64 mysql64.box
 ````
@@ -20,6 +20,6 @@ vagrant box add --name mysql64 mysql64.box
     vagrant box add firedot/mysql64
     ````
     The previous line will download the already built box from the VagrantCloud. 
-3. Install kitchen by installing the [ChefDK](https://downloads.chef.io/chefdk)
-4. Go into the directory where you cloned this repository
+   3. Install kitchen by installing the [ChefDK](https://downloads.chef.io/chefdk)
+   4. Go into the directory where you cloned this repository
 
